@@ -1,7 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Person extends Component {
-  render() {
-    return <div />;
-  }
+export default function Person() {
+  return <p>I'm a person!</p>;
 }
